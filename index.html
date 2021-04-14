@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not Sober At All - Luglio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="background">
+      <video autoplay muted loop id="backgroundVideo">
+        <source src="video/luglio.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="music-container">
+      <div class="cover" id="cover">
+        <img src="./cover/luglio.jpg" alt="album-cover" />
+        <div class="controls">
+          <i id="play" class="fas fa-play fa-5x active"></i>
+          <i id="pause" class="fas fa-pause fa-5x inactive"></i>
+        </div>
+      </div>
+
+      <div class="music-info">
+        <h1>LUGLIO</h1>
+        <div class="author">
+          <hr />
+          <h2>NOT SOBER AT ALL</h2>
+        </div>
+      </div>
+    </div>
+
+    <audio id="luglio" src="./audio/luglio.mp3" loop></audio>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
